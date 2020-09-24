@@ -1,4 +1,5 @@
 import { AfterViewInit, Component, ElementRef, HostListener, OnInit, ViewChild } from '@angular/core';
+import { OwlOptions } from 'ngx-owl-carousel-o';
 
 @Component({
   selector: 'app-home',
@@ -6,6 +7,34 @@ import { AfterViewInit, Component, ElementRef, HostListener, OnInit, ViewChild }
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements AfterViewInit {
+  customOptions: OwlOptions = {
+    loop: true,
+    mouseDrag: true,
+    touchDrag: true,
+    pullDrag: true,
+    dots: false,
+    autoplay: true,
+    autoplaySpeed:10,
+    animateIn: 'fadeIn',
+    animateOut:'fadeOut',
+    navSpeed: 700,
+    navText: ['<img src="../../../assets/images/left-arrow.png">', '<img src="../../../assets/images/right-arrow.png">'],
+    responsive: {
+      0: {
+        items: 1
+      },
+      400: {
+        items: 2
+      },
+      740: {
+        items: 3
+      },
+      940: {
+        items: 1
+      }
+    },
+    nav: true
+  }
   @ViewChild('banner', {static:true}) bannerElement:ElementRef;
 
   public bannerOffset: Number = null;
