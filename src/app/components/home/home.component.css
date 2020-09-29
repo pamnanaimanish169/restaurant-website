@@ -44,3 +44,72 @@
 /* Banner START */
 
 /* Banner END */
+
+/* About US START */
+#about-us > h2::before {
+    content: url('../../../assets/images/header_decorator.png');
+}
+
+#about-us > h2::after {
+    content: url('../../../assets/images/header_decorator.png');
+}
+
+#about-us {
+    position: absolute;
+    left: 50%;
+    transform:translate(-50%);
+    text-align: center;
+}
+
+#about-us > h2 {
+    display: inline-block;
+}
+/* About Us END */
+
+/* History START */
+#history {
+    width: 100%;
+    font-size: 1rem;
+    
+}
+
+#float-left {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    vertical-align: middle;
+    line-height: 270%;
+    text-align: center;
+}
+
+#float-right {
+    width: 50%;
+    float: left;
+    display: inline-block;
+}
+
+#float-left > h1 {
+    color: #BEA555;
+    font-family: 'Great Vibes', cursive;
+    font-size: xxx-large;
+}
+
+#history-2 > #float-left {
+    display: inline-block;
+    width: 50%;
+    float: right;
+    vertical-align: middle;
+    line-height: 270%;
+    text-align: center;
+}
+
+#history-2 > #float-right {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    vertical-align: middle;
+    line-height: 270%;
+    text-align: center;
+}
+
+/* History END */
