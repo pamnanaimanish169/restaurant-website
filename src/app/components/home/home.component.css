@@ -172,3 +172,84 @@ body, html {
     text-align: center;
 }
 /* Opening Hours END */
+
+/* Menu START */
+#menu-img {
+    text-align: center;
+}
+
+#column-1 {
+    display: inline-block;
+    width: 30%;
+    margin-left: 2.5%;
+}
+
+#column-1__float-left {
+    display: inline-block;
+}
+
+#column-1__float-right {
+    display: inline-block;
+    float: right;
+}
+
+#column-1 > div {
+    margin-bottom: 5%;
+}
+
+#column-2 {
+    display: inline-block;
+    width: 30%;
+    margin-left: 2.5%;
+}
+
+#column-2__float-left {
+    display: inline-block;
+}
+
+#column-2__float-right {
+    display: inline-block;
+    float: right;
+}
+
+#column-2 > div {
+    margin-bottom: 5%;
+}
+
+#column-3 {
+    display: inline-block;
+    width: 30%;
+    margin-left: 2.5%;
+}
+
+#column-3__float-left {
+    display: inline-block;
+}
+
+#column-3__float-right {
+    display: inline-block;
+    float: right;
+}
+
+#column-3 > div {
+    margin-bottom: 5%;
+}
+
+.btn-primary {
+    color: #BEA555;
+    background: white;
+    border: solid #BEA555;
+    padding: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: large;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    color: white;
+    background: #BEA555;
+    transition: 1s;
+}
+/* Menu END */
