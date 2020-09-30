@@ -374,3 +374,27 @@ form {
     padding: 2%;
 }
 /* Contact END */
+
+/* Maps START */
+agm-map {
+    height: 500px;
+}
+/* Maps END */
+
+/* Footer START */
+#footer {
+    height: 250px;
+    background: black;
+    color: #3A3935;
+}
+
+#footer-text {
+    text-align: center;
+    padding-top: 2%;
+}
+
+#footer-text > span > i {
+    font-size: xxx-large;
+    margin-right: 2%;
+}
+/* Footer END */

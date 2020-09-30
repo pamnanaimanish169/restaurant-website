@@ -7,6 +7,8 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements AfterViewInit {
+  lat = 40.730610;
+  lng = -73.935242
   customOptions: OwlOptions = {
     loop: true,
     mouseDrag: true,
