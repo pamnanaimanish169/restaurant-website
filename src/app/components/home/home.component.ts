@@ -93,6 +93,35 @@ export class HomeComponent implements AfterViewInit {
     },
     nav: true
   }
+
+  customOptions4: OwlOptions = {
+    loop: true,
+    mouseDrag: true,
+    touchDrag: true,
+    pullDrag: true,
+    dots: true,
+    autoplay: true,
+    autoplaySpeed:10,
+    animateIn: 'fadeIn',
+    animateOut:'fadeOut',
+    navSpeed: 700,
+    navText: ['', ''],
+    responsive: {
+      0: {
+        items: 1
+      },
+      400: {
+        items: 1
+      },
+      740: {
+        items: 1
+      },
+      940: {
+        items: 1
+      }
+    },
+    nav: true
+  }
   @ViewChild('banner', {static:true}) bannerElement:ElementRef;
 
   public bannerOffset: Number = null;

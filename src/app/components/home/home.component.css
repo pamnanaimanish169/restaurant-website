@@ -253,3 +253,52 @@ body, html {
     transition: 1s;
 }
 /* Menu END */
+
+/* Testimonial START */
+#testimonial {
+    color: white;
+    display: inline-block;
+    width: 100%;
+    background-image: url('../../../assets/images/testimonials.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonial_logo {
+    text-align: center;
+}
+
+.testimonial_text {
+    display: inline-block;
+    width: 80%;
+    padding-left: 4%;
+    font-size: x-large;
+}
+
+.testimonial_text > h2 {
+    color: #BEA555;
+}
+
+.testimonial-text__line {
+    display: inline-block;
+    width: 10%;
+}
+
+#author {
+    font-family: 'Great Vibes', cursive;
+    color: #BEA555;
+}
+
+::ng-deep .owl-theme .owl-dots .owl-dot span {
+    background: transparent !important;
+    border: solid 2px #BEA555 !important;
+}
+
+::ng-deep .owl-theme .owl-dots .owl-dot.active span,
+ .owl-theme .owl-dots .owl-dot:hover span {
+     background: #BEA555 !important;
+ }
+/* Testimonial END */
