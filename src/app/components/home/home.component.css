@@ -302,3 +302,75 @@ body, html {
      background: #BEA555 !important;
  }
 /* Testimonial END */
+
+/* Contact START */
+#contact {
+    background: black;
+    opacity: 1;
+    height: 500px;
+    padding: 2%;
+}
+
+#contact-heading {
+    text-align: center;
+    color: white;
+}
+
+#contact-form > form {
+    display: inline-block;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#contact-form__float-left {
+    display: inline-block;
+    float: left;
+    width: 45%;
+}
+
+#contact-form__float-left > input {
+    width: 95%;
+    margin-bottom: 5%;
+    padding: 5%;
+    background: #2A2828;
+    border: transparent;
+}
+
+#contact-form__float-right {
+    display: inline-block;
+    float: right;
+    width: 50%;
+}
+
+#contact-form__float-right > textarea {
+    width: 100%;
+    background: #2A2828;
+    border: transparent;
+}
+
+.button {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.button > button {
+    background: #BEA555;
+    border: none;
+    padding: 20px;
+    width: 20%;
+    color: white;
+}
+
+.button > button:hover {
+    background: white;
+    color: #BEA555;
+    transition: 1s;
+}
+
+form {
+    padding: 2%;
+}
+/* Contact END */
